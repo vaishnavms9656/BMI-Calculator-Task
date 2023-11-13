@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dela+Gothic+One&family=Fira+Sans:wght@100&family=Hind:wght@300&family=Inter:wght@100;300&family=Kaisei+Tokumin&family=Kanit:wght@800&family=Karla:wght@200&family=Montserrat:ital,wght@0,300;0,500;1,200&family=Mooli&family=Mulish:ital,wght@0,200;0,700;1,500&family=Playfair+Display:ital@0;1&family=Poppins:ital,wght@1,900&family=Raleway:wght@200&family=Roboto+Mono:ital,wght@1,300&family=Sedgwick+Ave+Display&family=Space+Grotesk:wght@300&family=Work+Sans:ital,wght@0,500;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.heading-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+.bmi-scale {
+  display: flex;
+}
+
+.output {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.output #bmi {
+  font-size: 3rem;
+}
+
+.output #desc strong {
+  text-transform: uppercase;
+}
+.bmi-scale div {
+  flex: 1;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 5px solid var(--color);
+  padding: 10px;
+}
+
+.bmi-scale h4 {
+  font-size: 0.75rem;
+  color: rgb(123, 69, 69);
+}
+.bmi-scale p{
+  font-size: 0.75rem;
+}
+.colors{
+  display: flex;
+}
+.yellow-line {
+  background-color: yellow;
+  height: 7px;
+  width: 25%;
+}
+
+.red-line {
+  background-color: red;
+  height: 7px;
+  width: 25%;
+}
+.orange-line {
+  background-color: orange;
+  height: 7px;
+  width: 25%;
+}
+.green-line {
+  background-color: green;
+   height: 7px;
+  width: 25%;
+}
+
+blink {
+  animation: blinker 1.5s linear infinite;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.main-section {
+  height: 550px;
+  border-radius: 60px;
+}
+.main {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(235, 237, 237, 0.785);
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
