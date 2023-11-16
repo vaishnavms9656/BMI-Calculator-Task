@@ -1,14 +1,6 @@
 const bmiText = document.getElementById("bmi");
 const descText = document.getElementById("desc");
-const form = document.querySelector("form");
-var age = document.getElementById("age");
-var height = document.getElementById("height");
-var weight = document.getElementById("weight");
-var male = document.getElementById("male");
-var female = document.getElementById("female");
-var head= document.getElementById("head")
 let load = document.getElementById("horizontalBar")
-
 function calculate() {
   if (
     isNaN(weight.value) ||
