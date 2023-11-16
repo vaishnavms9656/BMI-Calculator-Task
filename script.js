@@ -10,7 +10,6 @@ var head= document.getElementById("head")
 let load = document.getElementById("horizontalBar")
 
 function calculate() {
-  console.log(weight.value);
   if (
     isNaN(weight.value) ||
     isNaN(height.value) ||
